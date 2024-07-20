@@ -16,12 +16,12 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 h-20 w-full z-50 bg-white">
-      <div className="flex justify-between lg:justify-normal items-center px-4 h-full container mx-auto">
+      <div className="flex justify-between xl:justify-normal items-center px-4 h-full container mx-auto">
         <Link className="text-3xl font-bold" href="/">
           QuickShop!
         </Link>
 
-        <button className="text-black lg:hidden" onClick={handleOpenNav}>
+        <button className="text-black xl:hidden" onClick={handleOpenNav}>
           <SVGIcon icon={BarsIcon} size={32} />
         </button>
 
