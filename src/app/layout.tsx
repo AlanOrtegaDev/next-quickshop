@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     '¡Bienvenido a QuickShop! Tu destino ideal para compras en línea rápidas, convenientes y sin complicaciones. Descubre una amplia gama de productos a precios inigualables, todo a un solo clic. Disfruta de una navegación sencilla, un proceso de compra seguro y una entrega rápida directamente a tu puerta. Compra de manera inteligente, compra rápido, con QuickShop.',
 };
 
-interface Props {
+interface RootProps {
   readonly children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: Props) {
+export default function RootLayout({ children }: RootProps) {
   return (
     <html lang="es">
       <body className={poppins.className}>{children}</body>
